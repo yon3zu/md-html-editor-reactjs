@@ -10,7 +10,7 @@ function Footer() {
     <div>
       <Container fluid className="footer">
         Copywrite © {year} | Made with <i className="far fa-heart"></i>{" "}
-        <a href="https://instagram/youez_" target="_blank">youez_ </a>
+        <a href="https://instagram/youez_" target="_blank" onclick="alert('Copyright © {year} by youez_">>youez_ </a>
       </Container>
     </div>
   );
